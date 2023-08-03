@@ -32,7 +32,7 @@ do
 		table.insert(self.objects[type:lower()], {obj, ...})
 		return #self.objects[type:lower()]
 	end
-	function esp:remove(type, idx)
+	function esp:removeObj(type, idx)
 		self.objects[type:lower()][idx]:Remove();
 		self.objects[type:lower()][idx] = nil;
 	end
