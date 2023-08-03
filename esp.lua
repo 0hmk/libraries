@@ -1,4 +1,4 @@
---made by im.kyu in 20 mins
+--made by im.kyu in 20 mins, feel free to use
 local camera, esp, objects = workspace.CurrentCamera, {
 	objects = {
 			line = {},
