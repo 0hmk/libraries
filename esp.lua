@@ -33,7 +33,7 @@ do
 		return #self.objects[type:lower()]
 	end
 	function esp:removeObj(type, idx)
-		self.objects[type:lower()][idx]:Remove();
+		self.objects[type:lower()][idx][1]:Remove();
 		self.objects[type:lower()][idx] = nil;
 	end
 	function esp:startRendering()
